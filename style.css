@@ -1,0 +1,147 @@
+
+body {
+  font-family: 'Roboto';
+  margin: 0px  70px;
+  padding: 0;
+  background-color: #fffdf9;
+  color: #1a1a1a;
+}
+.logo{
+    height: 50px;
+    width: auto;
+    
+}
+.container{
+     padding: 2rem;
+     background-color: #fff5e1;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.nav nav a{
+  display: flex;
+  padding:10px;
+  text-decoration: none;
+  color:black;
+  align-items: center;
+  margin-bottom: 2rem;
+  float:left;
+  
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.content .text {
+  max-width: 500px;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.content h1 span {
+  color: orange;
+}
+
+.content p {
+  margin-bottom: 1.5rem;
+}
+
+.content button {
+  padding: 0.7rem 1.5rem;
+  background-color: #7cb518;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.content .image img {
+  max-width: 300px;
+  border-radius: 50%;
+}
+.products section {
+  padding: 3rm 2rm;
+}
+.products h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #2e2e5f;
+}
+.product-list {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.product {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  min-width: 250px;
+  max-width:350px;
+  height: 450px;
+ 
+}
+.product img {
+  width: 250px;
+  border-radius: 5px;
+}
+.product h3 {
+  font-size: 1.2rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.product p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.price-buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-buy span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: orange;
+}
+
+.price-buy button {
+  padding: 0.4rem 1rem;
+  background-color: #7cb518;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .nav nav {
+    display: none;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content .image img {
+    max-width: 200px;
+    margin-top: 1.5rem;
+  }
+
+  .product-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+ }
